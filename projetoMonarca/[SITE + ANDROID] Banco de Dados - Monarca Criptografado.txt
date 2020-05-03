@@ -1,0 +1,343 @@
+
+drop database monarca;
+create database monarca;
+use monarca;
+
+create table pagamento
+(
+id_pagto int not null auto_increment,
+tipo_pagto text not null,
+
+primary key (id_pagto)
+);
+
+insert into pagamento values(0, 'Boleto');
+insert into pagamento values(0, 'Cartão de Crédito');
+
+create table promocao
+(
+id_promo int not null auto_increment,
+titulo_promo text not null,
+desconto text not null,
+
+primary key (id_promo)                               
+);
+
+insert into promocao values (0, "R+BPg37sf/yG8lL2KczC7g==", "pNAp+skZ6FFjqyfyXvu9hg==");
+insert into promocao values (0, "tT9XbZIMbZtV6sMafV8ZyzF672KuSmjKS2ZQ0YytMmw=", "QLLSfGwJZlOT+YRzFyIkfw==");
+
+
+create table genero 
+(
+id_genero int not null auto_increment,
+id_promo int,
+tipo_genero text not null,
+
+primary key (id_genero),
+foreign key (id_promo) references promocao (id_promo)
+);
+insert into genero values (0, 1, '5VdkG83+qoU9P67jrfThWg==');
+insert into genero values (0, 2, '4gTojqkkl+c26Z1sDSo85A==');
+
+create table linha 
+(
+id_linha int not null auto_increment,
+id_promo int not null,
+tipo_linha text not null,
+status text not null,
+
+primary key (id_linha), 
+foreign key (id_promo) references promocao (id_promo)
+);
+
+
+insert into linha values (0, 2, "I8i0/pQDm+pB6RzmsGgNb3QkVom93A7ue/qG17T1kKY=", "0");
+insert into linha values (0, 1, "2/LXoqvtUYnpCDGywMo2PQ==", "0");
+insert into linha values (0, 1, "EApTad0l8MtwKARroilrxw==", "0");
+insert into linha values (0, 1, "extN3Etzx+txk3HMFoq02A==", "0");
+insert into linha values (0, 1, "bhtLiuGdIHj9RxxV8wFtcA==", "0");
+
+create table ml
+(
+id_ml int not null auto_increment,
+desc_ml text not null,
+adicional text not null,
+primary key (id_ml)
+);
+
+insert into ml values (0, "VE2kAc98e3OmUhV65sGEew==", "pNAp+skZ6FFjqyfyXvu9hg==");
+insert into ml values (0, "ppwVkg75hjvROR2WoIGzuw==", "QLLSfGwJZlOT+YRzFyIkfw==");
+
+create table android
+(
+id_android int not null auto_increment,
+desc_perf text not null,
+ingred1_perf text not null,
+ingred2_perf text not null,
+ingred3_perf text not null,
+foto_ingred1 text not null,
+foto_ingred2 text not null,
+foto_ingred3 text not null,
+id_aroma int not null,
+primary key(id_android)
+);
+
+insert into android values (0, "Amadeirado", "Perfume muito gostoso do Monarca", "Lavanda", "Canela", "", "", "", 1);
+
+create table produto
+(
+id_prod int not null auto_increment,
+status text not null,
+id_genero int not null,
+id_linha int not null,
+id_ml int not null,
+id_promo int not null,
+id_android int not null,
+nome_prod text not null,
+desc_prod text not null,
+slogan_prod text,
+valorUnid_prod text not null, 
+valor_acrescimo text not null, 
+valor_prod_final text not null,
+img_prod text not null,
+qtd_disponivel text not null, 
+
+primary key (id_prod),
+foreign key (id_genero) references genero (id_genero),
+foreign key (id_linha) references linha (id_linha),
+foreign key (id_ml) references ml (id_ml),
+foreign key (id_promo) references promocao (id_promo),
+foreign key (id_android) references android (id_android),
+constraint ch_tipo check (valorUnid_prod > 0),
+constraint ch_tipo2 check (qtd_estoque > 0)
+);
+
+
+
+insert into produto values (0,"0", 1, 3, 2,1, 1, "8cMB7TZpa/EV3C1QhBR+Sg==", "lEHSoOedXjyhZeWETEAy7VOB9OXqqMFwx0kiXY3Vt7mRAHIugOZSPrvojUBqKlz5wRSCqw//LB2ii7SbG84NABZb26E58gmjm1U/3YPPMYKCMvkI69HdUJuktBRRK04yC5kstYrfAawewntQbcI/GdUEs7j7Ar2Gwc2QcqeU+w1LFrQOQQ7DLRUSir9Vhd6+efHiZN3oUoKtEoyG6WrvRLeYiW0kvdjmefq6Epl4Le7LPjgsivUMp8dpy108fKWI2opfFNMF52Kc1hOUXhOnmaBP07A3qSfClSGk9rj95ptcnTnmbKCYY3udfEga2pE3H0ckpdLpUifhN/SMAYoWiHUG2N87gfCQWvYDojbXfcIEt+VPBDjirTeyYwsDO2hA",
+				"rWRzUJ7J9ZTX0bQfL51GyvV8RKIWIPV03TSxl264yOrwfO/QeoW2hg3aquRs+C+kK9IxUWGzIiUMQdIkdN4hIZmWS7uFTYkaz2jqyiThqkQXGqG+KfCpxLM63F4H9hPPneY82ehmKufbY6O8sX83wvzzCuykV0Xx/b5TqoSDrvo=", "65242eueZYOxBx4KNJl1Ug==", "ADRXVX+PVPwuitM7S3fBKg==", "g/AVRhDSib8LKDPqxse8vA==", "0eqNMMrug4/5IwqPVp+pMw==", "8rAFW/XZSUbzVawBuVgc8Q==");
+
+
+insert into produto values (0,"0", 2, 3, 1,2, 1, "I69TlzGOf7RwROTKrR3XHQ==", "gULj79uI+Fhd1cQFuRy9OzRwMrxUqgL/MA5RReUQHv18BluR35FmEVCcX/ppwUhNpkQV7tvFQY3rQJZFNGR9XXl7gqeJrhCjuj2ThhAPDJkutNW4np5uengIVj0ofd0GXBC698xjHRptStD9YFCS+A==",
+				"MhDqSaX7z8dy3MAQKZ28Rg==", "65242eueZYOxBx4KNJl1Ug==", "78Fml68amq429sm1JXYaeg==", "ADRXVX+PVPwuitM7S3fBKg==", "o76hab70OMG33Ign4ZjUnQ==", "8rAFW/XZSUbzVawBuVgc8Q==");
+
+insert into produto values (0,"0", 1, 3, 1,1, 1, "/61EK3oKi3QiSnlw+tWEBQ==", "6xqUKY2/ROHfE48QLvAF9qSeP6VbZaPjA6XMxooCW8HzG0zOk0yZXlvIvevAqvk0jX+/MhVeCfZjU4UU5JTzl1oqYlhLRmbB4+Z8O4HIj408TzHvfon9IW2xbNLc9gQi+xa3FdbdEqXZHDSkAltTv7dFceVc/frXbar8APzPUVA=",
+				"0qhKGnjT/C6B/7ikfRuiDQ==", "65242eueZYOxBx4KNJl1Ug==", "78Fml68amq429sm1JXYaeg==", "fJsUhv+nPBnEfbwmqK0qMg==", "orc33F8Ia15PmasqaKjNZr6WVKNlOj2UYI11NR73vkw=", "8rAFW/XZSUbzVawBuVgc8Q==");
+
+
+insert into produto values (0,"0", 2, 3, 1,1, 1, "Z/BSbS3EMYef0dK3SV70pw==", "ihbZpRWMdxJSQCpOaJfEamMRepPNPGN/GUq5q6+4u5/odNUoK+vqSIVvwS+RDyd1G9dtb2fHEkYpg/3uQZYU2vjyLIWsTpteEJuwJevJt8tbQUTg3XzwkyUIpeHe55K/qmt2kOwJYR0ydzazwVCe5g==",
+				"FdC4J4nw7JzYPx0Nw4raFTFwBWiV4vTD9Asv1htufZY=", "65242eueZYOxBx4KNJl1Ug==", "78Fml68amq429sm1JXYaeg==", "ADRXVX+PVPwuitM7S3fBKg==", "svdT9hLNyflIBqlc91buNA==", "8rAFW/XZSUbzVawBuVgc8Q==");
+
+insert into produto values (0,"0", 2, 3, 1,1, 1, "iG19cygWEk98S8NFX6Kuyg==", "6ndoDTRfyZWgFBxDPIo20V9+uYX0pDcgBcePfo369yvHglxedRkoRsFZqa0BlFrpLaxrSEsnSa8j6K/AH5vYzk0Wn6haTildWIqymH1+zoyQRtgzoXAtgzKGEsht2we3GMCAexeg7J27O4K2piqAYg==",
+				"DFLAXX9qqicRiz2AVeJ4glBhAl+UsLs+jvFwKqDaQSI=", "65242eueZYOxBx4KNJl1Ug==", "78Fml68amq429sm1JXYaeg==", "ADRXVX+PVPwuitM7S3fBKg==", "/6EqcKgObY+e6u8ezkSaRw==", "8rAFW/XZSUbzVawBuVgc8Q==");
+
+
+insert into produto values (0,"0", 1, 1, 1,1, 1, "9wnCGc2ErH3g0xBKr7EOkw==", "d6I+MXFqZKpu9HyiE2pIsC475ELcWJ7ybk7MmwSVIrADQiZkJkhzFtsjU3qrHHElswsTTy0YCcQbAg05tgMLhMFpbA5sYghb9gHrao/oSgP2k0+QNzIG7CyCawqZg0Q2ubnt75OMPRhUuFGB5jdv6jzRACESnQI/q38ARq8VQP4=",
+				"z7X0Clr2OM3sZDnJB+VJyaN7JFIn43odiVp8iVGWuV0=", "3jdSHbo9U3osQGpUx24T7Q==", "78Fml68amq429sm1JXYaeg==", "Ua2UIWu6tuNQKp+80pO+0g==", "lE5f8Q46lyDR8xzlchEnnzC7/hVEhV1IEgJs8IawpS8=", "8rAFW/XZSUbzVawBuVgc8Q==");
+ 
+insert into produto values (0,"0", 1, 2, 1,1, 1, "s7HePSHyxCyM5pgfQ2h6lA==", "TruGAeA4kxdqA1X+voO2lv2fVttUfzh/X06F33x5lb01a8TuYS4IhRAC80IUhAhkad4KrONN00SULSw2gMZOha0bbNuSqu051ONZpDYDRvjOG5tXqCpldnyzaCkwxwN9CAJ+YkD7ffJos+bA4kdCgQ==",
+				"FLZPi4fnYqcYKA7vypu59k7bseSHxvzGlzv0Ms2ptaY=", "3jdSHbo9U3osQGpUx24T7Q==", "78Fml68amq429sm1JXYaeg==", "ADRXVX+PVPwuitM7S3fBKg==", "C3k7ceEYp4gv9Awvvy86JHE495PuqmUoSUEQ+hwlC0Y=", "8rAFW/XZSUbzVawBuVgc8Q==");
+    
+create table adm
+(
+id_adm int not null auto_increment,
+status text not null,
+login_adm text not null,
+senha_adm text not null,
+email_adm text not null,
+perg_adm text not null,
+resp_adm text not null,
+data_conta text not null,
+
+primary key (id_adm)
+);
+
+insert into adm values (0,"0",'dTTLhzcd8ABCEKrpmh3quQ==', 'dTTLhzcd8ABCEKrpmh3quQ==', 'Ly07jFqy8ISXMY7So4ABgnpLIZscKETBVwlJ7f4S6ik=', "jcOgeFOQcgSxWk8oU4vKOHhxguvq0YT3BpQJrR2/r/Q=", "3t+XIpu6/rZ94wbyAawymw==", "2015-08-01");
+
+create table funcionario
+(
+id_func int not null auto_increment,
+status text not null,
+login_func text not null,
+senha_func text not null,
+email_func text not null,
+perg_func text  not null,
+resp_func text  not null,
+data_conta text not null,
+
+primary key (id_func)
+);
+
+insert into funcionario values (0,"0",'P/ESORflhukGPszNs+DNsQ==', 'P/ESORflhukGPszNs+DNsQ==', 'Ly07jFqy8ISXMY7So4ABgnpLIZscKETBVwlJ7f4S6ik=', "jcOgeFOQcgSxWk8oU4vKOHhxguvq0YT3BpQJrR2/r/Q=", "3t+XIpu6/rZ94wbyAawymw==", "2015-08-22");
+
+create table cliente
+(
+id_cli int not null auto_increment,
+status text not null,
+login_cli text not null,
+nome_cli text not null,
+email_cli text not null,
+senha_cli text not null,
+CPF_cli text not null,
+RG_cli text,
+sexo_cli text not null,
+dtNasc_cli text not null,
+tel_cli text not null,
+outroTel_cli text,
+estciv_cli text not null,
+CEP_cli text not null,
+num_cli int not null,
+compl_cli text,
+perg_cli text not null,
+resp_cli text not null,
+data_conta text not null,
+
+primary key (id_cli), 
+constraint ch_cli check (sexo_cli in ("M", "F")),
+constraint ch_cli2 check (estciv_cli in ("C", "S", "D", "V"))
+);
+
+insert into cliente values (0, "0","uHdsk74qAcPbbL9Ct04OGg==", "6du2zf8gVQsoqHuFRwBOlw==", "mOE7f+qggw2e1tisIyiQjQ==", "VcYgoBP9p4GAZEKuzT1ooA==","334a4YBPFnsdgINkCLLBSw==","pMlDjgYuDYAatDeqclwNkg==", "5VdkG83+qoU9P67jrfThWg==", "u7Xnf7btsBwByTj7NzfiYw==", "g88ob9LuqwvA/AuQWZfTqQ==", "9gbUkfIwtDXszPUcxsSUAA==","pTjPaLcuc6WSF2J1p5k7Ug==", "rqBlIwwZVVIAE4T1AsrVzA==", 12, "9gbUkfIwtDXszPUcxsSUAA==", "uHdsk74qAcPbbL9Ct04OGg==", "uHdsk74qAcPbbL9Ct04OGg==", "2015/10/26");
+
+create table endereco
+(
+id_end int not null auto_increment,
+CEP_cli text not null,
+num_cli int not null,
+compl_cli text,
+nome_end text not null,
+cidade_end text not null,
+rua_end text not null,
+estado_end text not null,
+id_cli int,
+
+primary key (id_end),
+foreign key (id_cli) references cliente (id_cli)
+);
+
+insert into endereco values (0,"6TEQtBI7gcOgyY/DPYCpvg==","110","9gbUkfIwtDXszPUcxsSUAA==","k90hZvy/3a7ek0UDnOlVOw==","9k3SQdZFqoYqAlQsFOnw3WLAXPTXl9BWoyZvAXNp/3c=","BxdXIBKTmplc8ae/m3xUKQ==","axmrSIpugK0jkd75eNsSKA==",1);
+
+
+create table venda
+(
+id_venda int not null auto_increment,
+id_cli int not null,
+id_pagto int,
+total_venda text,
+
+primary key (id_venda),
+foreign key (id_cli) references cliente (id_cli),
+foreign key (id_pagto) references pagamento (id_pagto)
+);
+
+insert into venda values (0, 1, 2, "LyaC8r/hAF+y7b9Lzwmubw==");
+
+create table itens
+(
+id_itens int not null auto_increment,
+id_venda int not null,
+status text not null,
+id_prod int not null,
+qtd_item int not null,
+total_prod text not null,
+
+primary key (id_itens),
+foreign key (id_prod) references produto (id_prod),
+foreign key (id_venda) references venda (id_venda),
+constraint ch_itens check (qtd_itens >0)
+);
+
+create table opiniao
+(
+id_opiniao int auto_increment,
+nome text not null,
+titulo text not null,
+opiniao text not null,
+id_cli int null,
+id_prod int not null,
+
+
+primary key (id_opiniao),
+foreign key (id_cli) references cliente (id_cli),
+foreign key (id_prod) references produto (id_prod)
+);
+
+create table sugestoes
+(
+id_sugestao int not null auto_increment,
+sugestao text not null,
+primary key(id_sugestao)
+);
+
+create table loginRecenteCli
+(
+id_rec_cli int not null auto_increment,
+login_rec_cli text not null,
+primary key(id_rec_cli)
+);
+
+create table loginRecenteFunc
+(
+id_rec_func int not null auto_increment,
+login_rec_func text not null,
+primary key(id_rec_func)
+);
+
+create table loginRecenteAdm
+(
+id_rec_adm int not null auto_increment,
+login_rec_adm text not null,
+primary key(id_rec_adm)
+);
+
+select nome_prod, id_ml, id_promo, valor_acrescimo, valor_prod_final from produto; 
+
+create table registrosADM
+(
+id_registros int not null auto_increment,
+id_adm int not null,
+registro text not null,
+data_registro text not null,
+
+login_cliente text null,
+login_adm text null,
+login_func text null,
+nome_prod text null,
+desc_ml text null,
+tipo_promo text null,
+tipo_linha text null,
+tipo_genero text null,
+
+
+primary key (id_registros),
+foreign key (id_adm) references adm (id_adm)
+);
+
+create table registrosFUNC
+(
+id_registrosFunc int not null auto_increment,
+id_func int not null,
+registro text not null,
+data_registro text not null,
+nome_prod text null,
+
+primary key (id_registrosFunc),
+foreign key (id_func) references funcionario (id_func)
+);
+
+
+
+create table registroLogin
+(
+id_registrosLogin int not null auto_increment,
+id_adm int null,
+id_func int null,
+data_registro text not null,
+registro text not null,
+
+
+primary key (id_registrosLogin),
+foreign key (id_adm) references adm (id_adm),
+foreign key (id_func) references funcionario (id_func)
+);
+

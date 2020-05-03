@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "monarca", ".", "{D1618F34-EC2D-4D68-A0A9-AB0CF1F0985F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/monarca"
+		Debug.AspNetCompiler.PhysicalPath = "G:\ti\monarca\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\monarca\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/monarca"
+		Release.AspNetCompiler.PhysicalPath = "G:\ti\monarca\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\monarca\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49427"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1618F34-EC2D-4D68-A0A9-AB0CF1F0985F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1618F34-EC2D-4D68-A0A9-AB0CF1F0985F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

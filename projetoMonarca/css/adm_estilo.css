@@ -1,0 +1,1236 @@
+﻿@charset "utf-8";
+
+
+body {
+	margin:0;
+    font-family: "Century Gothic";	
+	background-color: #f5f5f5;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+}
+
+h1{
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 10px;
+    color: #000;
+    font-family: "Century Gothic";
+}
+h2 {
+    font-size: 1.5em;
+    font-family: "Century Gothic";
+}
+
+.posicionamento{
+	width:80%;
+	margin: 0 auto;
+}
+
+.sair{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: color 0.25s ease-out;
+    -moz-transition: color 0.25s ease-out;
+    -ms-transition: color 0.25s ease-out;
+    -o-transition: color 0.25s ease-out;
+    transition: color 0.25s ease-out;
+
+}
+.sair:hover{
+ color: #ccc;
+ }
+
+
+.lista a:hover 
+{
+    text-decoration: underline;
+    color: #666;
+}
+
+    .conteudo h1, h2 {
+	font-family: "Calibri";
+	padding-top:5px;
+	padding-left:10px;
+	padding-right:10px;
+	font-size: 24px;
+}
+
+.conteudo h4 {
+	padding-top:5px;
+	padding-left:20px;
+	padding-right:10px;
+	text-align: left;
+    font-size: 1.5em;
+    font-family: "Century Gothic";
+}
+
+.conteudo p {
+	padding-top:5px;
+	padding-left:10px;
+	padding-right:10px;
+	font-size: 1.4em;
+    font-family: "Calibri Light", Calibria,Helvetica;
+    line-height: 1.5em;
+    color: #333;
+}
+
+.conteudo p a {
+	padding-top:5px;
+	padding-left:10px;
+	padding-right:10px;
+
+    font-family: "Calibri Light", Calibria,Helvetica;
+    line-height: 1.5em;
+    color: #000;
+}
+
+    .conteudo10 h1, h2 {
+	font-family: "Century Gothic";
+	padding-top:5px;
+	padding-left:10px;
+	padding-right:10px;
+	font-size: 24px;
+}
+
+.conteudo10 h4 {
+	font-family: "Calibri";
+	padding-top:5px;
+	padding-left:20px;
+	padding-right:10px;
+	font-size: 18px;
+}
+
+.conteudo10 p {
+	font-family: "Calibri";
+	padding-top:5px;
+	padding-left:10px;
+	padding-right:10px;
+	font-size: 16px;
+}
+
+.conteudo10 p a {
+	font-family: "Calibri";
+	padding-top:5px;
+	padding-left:10px;
+	font-size: 16px;
+	color: #000000;
+}
+
+.lista {
+	width: 20%;
+	height: auto;
+	padding-left: -5px;
+	padding-bottom: 10px;
+	background-color: #CCC;
+	-webkit-border-radius: 0 20px 2px 20px;
+    border-radius: 0 20px 2px 20px;
+	margin-left: 10px;
+	margin-right:10px;
+}
+
+.lista p a {
+    font-family: "Calibri";
+    font-size: 24px;
+}
+
+.lista p .links2 a {
+    font-family: "Calibri";
+    font-size: 20px;
+}
+
+.lista p .links3 a {
+    font-family: "Calibri";
+    font-size: 20px;
+}
+
+.lista p .links4 a {
+    font-family: "Calibri";
+    font-size: 14px;
+}
+
+
+a{
+	text-decoration:none;}
+
+.caixa_tudo {
+	background-color: #fff;
+	width:80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.topo {
+	background-color: #000;
+	margin:0 auto;
+	height: 135px;
+	width: 100%;
+}
+
+.superior1{
+	background-color:#000;
+	margin:0 auto;
+	height:90px;
+	width:60%;
+	min-width:1200px;
+	}
+.logo{
+	height:80px;
+	width:67px;
+	float:left;
+	margin-top:5px;
+	}
+	.logo a img{
+	height:80px;
+	width:67px;
+	float:left;
+	margin-top:5px;
+	border: none; 
+	}
+.login {
+	font-family: "Calibri Light";
+	font-size: 18px;
+	color: #FFF;
+	float: right;
+	height: 80px;
+	width: 230px;
+	margin-top:5px;
+	font-weight: bold;	
+	padding-top:5px;
+}
+.login a{
+	font-family: "Meiryo";
+	font-size: 10px;
+	color: #FFF;
+	float: left;
+}
+.login p {
+	font-family: "Calibri Light";
+	font-size: 18px;
+	color: #FFF;
+	text-decoration:none;
+	float: right;
+    height: 20px;
+}
+.login a:hover{
+	font-family: "Meiryo";
+	font-size: 10px;
+	color:#999;
+	float: left;
+	text-decoration:underline;
+}
+
+.logout 
+{
+    float: right;
+}
+.superior2{
+	background-color:#000;
+	margin:0 auto;
+	width:60%;
+	min-width:1200px;
+	height:45px;
+}
+
+.menu {
+	font-family: "Calibri Light";
+	font-size: 24px;
+	color: #FFF;
+	float: left;
+	height: 45px;
+	width: 500px;
+
+}
+
+.menu a {
+	font-family: "Calibri Light";
+	font-size: 24px;
+	color: #FFF;
+	text-decoration:none;
+
+}
+.menu a:hover {
+	font-family: "Calibri Light";
+	font-size: 24px;
+	color: #999;
+	text-decoration:none;
+	transition:0.2s linear;
+
+	
+}
+.pesquisa {
+	font-family: "Calibri Light";
+	font-size: 24px;
+	color: #FFF;
+	float: right;
+	height: 45px;
+	width: 250px;
+}
+
+
+/* caixa de login */
+
+.text-input-login {
+	background:None;
+	border:0;
+	border-bottom:1px solid #fff;
+	display:block;
+	float:left;
+	color:#fff;
+}
+.text-input-login:focus {
+	outline:0;
+}
+
+/*caixa de busca/*/
+
+.search {
+	width:25px;
+	height:25px;
+	border:0;
+	background-image: url(../img/lupa3DONE.png);
+	background-color:transparent;
+	display:block;
+	float:left;
+	cursor:pointer;
+}
+#pesquisa { float:right}
+#pesquisa:hover .caixadepesquisa {
+	width:200px;
+}
+
+#LinkButton1 
+{
+    font-size: 14px;
+    
+    }
+.caixadepesquisa {
+	width:25px;
+	height:25px;
+	transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	-ms-transition:all 0.2s linear;
+	-o-transition:all 0.2s linear;
+	background:None;
+	border:0;
+	border-bottom:1px solid #fff;
+	display:block;
+	float:left;
+	color:#fff;
+}
+.caixadepesquisa:focus {
+	width:200px;
+	outline:0;
+}
+
+/*como fazer sombra na caixa http://css3gen.com/box-shadow/*/
+	
+	.conteudo10 {
+	background-color: #FFF;
+	width:90%;
+	height:4000px;
+	margin:0 auto;
+-webkit-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+	min-width:1200px;
+	}
+	.conteudo {
+	background-color: #FFF;
+	width:100%;
+	height:auto;
+	min-height:300px;
+	margin:0 auto;
+	-webkit-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+	}
+	.centro-cont{
+	width: 90%;
+	margin: 0 auto;
+	}
+
+.caixa_rodape {
+	width: 100%;
+	height: 200px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+-webkit-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+	background-color:#CCC;	
+	}
+	
+	
+
+ .caixa_rodape p  {
+	font-family: "Calibri Light";
+	font-size: 18px;
+	font-style: normal;
+	color: #999;
+	text-decoration: none;
+	padding-top:30px;
+	text-align:center;
+	
+
+	
+}
+ .caixa_rodape p a {
+	font-family: "Calibri Light";
+	font-size: 20px;
+	font-style: normal;
+	color:#666;
+	text-decoration: none;
+}
+
+
+ .caixa_rodape p a:hover {
+	font-family: "Calibri Light";
+	font-size: 20px;
+	font-style: normal;
+	color: #999; 
+	text-decoration: none;
+	transition:0.2s linear;
+	-webkit-transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	-ms-transition:all 0.2s linear;
+	-o-transition:all 0.2s linear;
+	}
+	
+.rodape-posicionamento{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.galeria {
+	padding-top:20px;
+	float: left;
+	height: 160px;
+	width: 150px;
+	margin-left: 80px;
+	font-family: "Calibri Light";
+	font-size: 24px;
+	font-style: normal;
+	color:#666;
+	text-decoration: none;
+}
+.compre_aqui
+{
+	padding-top:20px;
+	float: left;
+	height: 160px;
+	width: 150px;
+	margin-left: 80px;
+	font-family: "Calibri Light";
+	font-size:24px;
+	font-style: normal;
+	color:#666;
+	text-decoration: none;
+} 
+
+.sobre
+{
+	padding-top:20px;
+	float: left;
+	height: 160px;
+	width: 150px;
+	margin-left: 80px;
+	margin-right:80px;
+	font-family: "Calibri Light";
+	font-size: 24px;
+	font-style: normal;
+	color:#666;
+	text-decoration: none;
+	} 
+	
+.links
+{
+	font-family: "Calibri Light";
+	font-size: 20px;
+	font-style: normal;
+	color:#999;
+	text-decoration: none;
+	
+	
+	}
+
+
+ .caixa_rodape .perfumes .links a {
+	color: #666;
+	
+}
+ .caixa_rodape .galeria .links a {
+	color: #666;
+	
+}
+ .caixa_rodape .compre_aqui .links a {
+	color: #666;
+}
+ .caixa_rodape .sobre .links a {
+	color: #666;
+}
+ .caixa_rodape .perfumes a {
+	color: #666;
+}
+.caixa_rodape .galeria a {
+	color: #333;
+}
+ .caixa_rodape .perfumes a {
+	color: #333;
+}
+.caixa_rodape .compre_aqui a {
+	color: #333;
+}
+.caixa_rodape .sobre a {
+	color: #333;
+}
+
+
+/*hover*/
+
+
+
+.caixa_rodape .perfumes .links a:hover {
+	color: #666;
+	text-decoration:underline;
+}
+ .caixa_rodape .galeria .links a:hover  {
+	color: #666;
+	text-decoration:underline;
+	
+}
+.caixa_rodape .compre_aqui .links a:hover  {
+	color:#666;
+	text-decoration:underline;
+}
+ .caixa_rodape .sobre .links a:hover {
+	color: #666;
+	text-decoration:underline;
+}
+ .caixa_rodape .perfumes a:hover  {
+	color: #666;
+	text-decoration:underline;
+}
+.caixa_rodape .galeria a:hover  {
+	color: #333;
+	text-decoration:underline;
+}
+.caixa_rodape .perfumes a:hover  {
+	color: #CCC;
+	text-decoration:underline;
+}
+.caixa_rodape .compre_aqui a:hover  {
+	color: #333;
+	text-decoration:underline;
+}
+.caixa_rodape .sobre a:hover  {
+	color: #333;
+	text-decoration:underline;
+}
+
+.direitos {
+	width:100%;
+	height:40px;
+	padding-top:15px;
+	background-color:#333;
+	margin:auto;
+	font-family: "Calibri Light";
+	font-size: 16px;
+	text-align: center;
+	color: #FFF;
+-webkit-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+	}
+	
+	
+.Grid {
+	background-color: transparent;
+	margin: 5px 0 10px 0;
+	border: solid 1px #525252;
+	border-collapse:collapse; 
+	font-family:Calibri;
+	color: #474747;
+	}
+.Grid td {
+      padding: 2px;
+      border: solid 1px #c1c1c1; }
+.Grid th  {
+      padding : 4px 2px;
+      color: #fff;
+      background: #363670;
+      border-left: solid 1px #525252;
+      font-size: 0.9em; 
+	  }
+	  
+	.caixa-de-texto {
+	background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #333;
+    color: #212121;
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    font-size: 1.3rem;
+    outline: 0;
+    padding-left: 10px;
+	
+	}
+	.btnApp:hover {
+    border: 1px solid #212121;
+    color: #fff;
+    width: 128px;
+    height: 45px;
+    margin: 0 auto;
+    text-decoration: none;
+    background: #212121;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    font-weight: 700;
+    margin-top: 20px;
+}
+	.btnApp {
+    border: 1px solid #212121;
+    color: #212121;
+    width: 128px;
+    height: 45px;
+    margin: 0 auto;
+    text-decoration: none;
+    background: transparent;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+	.ddls {
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #333;
+    transition: ease-in 0.3s;
+    border-radius: 3em;
+    text-decoration: none;
+    font-family: "PT Sans", sans-serif;
+    padding-left: 10px;
+    color: #212121;
+}
+
+.file-upload {
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    background: transparent;
+    color: #212121;
+    border: 1px solid #212121;
+    cursor: pointer;
+}
+
+    .file-upload:hover {
+  border: 1px solid #212121;
+  color: #fff;
+  margin: 0 auto;
+  text-decoration: none;
+  background: #212121;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  font-weight: 700;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+    }
+
+/* The button size */
+.file-upload {
+    height: 30px;
+}
+
+    .file-upload, .file-upload span {
+        width: 120px;
+    }
+
+        .file-upload input {
+            top: 0;
+            left: 0;
+            margin: 0;
+            font-size: 14px;
+            font-weight: bold;
+            /* Loses tab index in webkit if width is set to 0 */
+            opacity: 0;
+            filter: alpha(opacity=0);
+        }
+
+        .file-upload strong {
+            font: normal 16px Tahoma,sans-serif;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .file-upload span {
+            ;
+            top: 0;
+            left: 0;
+            display: inline-block;
+            /* Adjust button text vertical alignment */
+            padding-top: 5px;
+        }
+
+
+	/* Radio - http://www.designcouch.com/home/why/2013/05/13/styling-form-radio-buttons/ */
+
+
+	input[type="radio"] {
+	position:			absolute;
+	opacity: 			0;
+	-moz-opacity: 		0;
+	-webkit-opacity: 	0;
+	-o-opacity: 		0;
+	}
+
+	input[type="radio"] + label {
+	position: 			relative;
+	padding: 			0 0 0 25px;
+	font-size: 			16px;
+	line-height: 		25px;
+	margin:				0 0 10px 0;
+	color: 				#666;
+	}
+
+	input[type="radio"] + label:before {
+	content: 			"";
+	display: 			block;
+	position: 			absolute;
+	top: 				2px;
+	height: 			14px;
+	width: 				14px;
+	background: 		transparent;
+	border: 			1px solid gray;
+	box-shadow: 		inset 0px 0px 0px 2px white;
+	-webkit-box-shadow: inset 0px 0px 0px 2px white;
+	-moz-box-shadow: 	inset 0px 0px 0px 2px white;
+	-o-box-shadow: 		inset 0px 0px 0px 2px white;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 	8px;
+	}
+
+	input[type="radio"]:checked + label:before {
+	background: 		#999;
+	}
+    /*fim do radio*/
+	
+    /* Check - http://www.designcouch.com/home/why/2013/05/13/styling-form-radio-buttons/ */
+
+
+
+
+	input[type="checkbox"] + label {
+	position: 			relative;
+	padding: 			0 0 0 25px;
+	font-size: 			16px;
+	line-height: 		25px;
+	margin:				0 0 10px 0;
+	color: 				#666;
+	}
+
+	input[type="checkbox"] + label:before {
+	content: 			"";
+	display: 			block;
+	position: 			absolute;
+	top: 				2px;
+	height: 			14px;
+	width: 				14px;
+	background: 		transparent;
+	border: 			1px solid gray;
+	box-shadow: 		inset 0px 0px 0px 2px white;
+	-webkit-box-shadow: inset 0px 0px 0px 2px white;
+	-moz-box-shadow: 	inset 0px 0px 0px 2px white;
+	-o-box-shadow: 		inset 0px 0px 0px 2px white;
+	}
+
+	input[type="checkbox"]:checked + label:before {
+	background: 		#999;
+	}
+
+	/*fim do checkbox*/
+	
+
+
+
+
+
+.caixa-de-texto-grande {
+    background-color: transparent;
+    border: 1px solid #333;
+    color: #212121;
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    font-size: 1.3rem;
+    outline: 0;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+	
+/* Media Queries */
+
+/*  https://css-tricks.com/snippets/css/media-queries-for-standard-devices/  */
+
+
+
+@media screen  and (max-width: 413px){
+
+.rodape-posicionamento{
+	width: 100%;
+	margin: 0 auto;
+}
+.caixa_tudo {
+	background-color: #fff;
+	width:100%;
+	margin: 0 auto;
+}
+
+.conteudo {
+	background-color: #FFF;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+-webkit-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+
+	}	
+
+.caixa_rodape {
+	width: 100%;
+	height: 525px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+-webkit-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+	background-color:#CCC;
+
+	}
+.direitos {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    background-color: #333;
+    margin: auto;
+    font-family: "Calibri Light";
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+-webkit-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+
+}
+
+}
+
+@media screen and  (min-width: 414px) and (max-width: 479px) { 
+.caixa_tudo {
+	background-color: #fff;
+	width:100%;
+	margin: 0 auto;
+}
+
+.conteudo {
+	background-color: #FFF;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+-webkit-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+
+	}	
+
+.caixa_rodape {
+	width: 100%;
+	height: 525px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+-webkit-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 45px -20px rgba(0,0,0,0.75);
+	background-color:#CCC;
+
+	}
+.direitos {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    background-color: #333;
+    margin: auto;
+    font-family: "Calibri Light";
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    -webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+
+}
+	
+}
+@media screen and  (min-width: 480px) and (max-width: 567px){
+
+.rodape-posicionamento{
+	width: 100%;
+	margin: 0 auto;
+}
+ .caixa_tudo {
+	background-color: #fff;
+	width:100%;
+	margin: 0 auto;
+}
+
+.conteudo {
+	background-color: #FFF;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+
+	}	
+
+.caixa_rodape {
+	width: 100%;
+	height: 350px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	background-color:#CCC;
+
+	}
+.direitos {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    background-color: #333;
+    margin: auto;
+    font-family: "Calibri Light";
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    -webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+}
+
+@media screen and  (min-width: 568px) and (max-width: 639px)
+ {
+  .caixa_tudo {
+	background-color: #fff;
+	width:100%;
+	margin: 0 auto;
+}
+
+.conteudo {
+	background-color: #FFF;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+
+	}	
+
+.caixa_rodape {
+	width: 100%;
+	height: 350px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	background-color:#CCC;
+
+	}
+.direitos {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    background-color: #333;
+    margin: auto;
+    font-family: "Calibri Light";
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    -webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+
+}
+}
+
+
+@media screen and (min-width: 640px) and (max-width: 735px) 
+{
+.rodape-posicionamento{
+	width: 100%;
+	margin: 0 auto;
+}
+.caixa_tudo {
+	background-color: #fff;
+	width:100%;
+	margin: 0 auto;
+}
+
+.conteudo {
+	background-color: #FFF;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+
+	}	
+
+.caixa_rodape {
+	width: 100%;
+	height: 350px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	background-color:#CCC;
+
+	}
+.direitos {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    background-color: #333;
+    margin: auto;
+    font-family: "Calibri Light";
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    -webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+}
+
+
+@media screen and  (min-width: 736px) and (max-width: 767px)  { 
+  .caixa_tudo {
+	background-color: #fff;
+	width:100%;
+	margin: 0 auto;
+}
+
+.conteudo {
+	background-color: #FFF;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+
+	}	
+
+.caixa_rodape {
+	width: 100%;
+	height: 350px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	background-color:#CCC;
+
+	}
+.direitos {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    background-color: #333;
+    margin: auto;
+    font-family: "Calibri Light";
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    -webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+
+}
+}
+
+
+@media screen and  (min-width: 768px)  and (max-width: 799px)  {
+  .rodape-posicionamento{
+	width: 100%;
+	margin: 0 auto;
+}
+.caixa_tudo {
+	background-color: #fff;
+	width:100%;
+	margin: 0 auto;
+}
+
+.conteudo {
+	background-color: #FFF;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+
+	}	
+
+.caixa_rodape {
+	width: 100%;
+	height: 350px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	background-color:#CCC;
+
+	}
+.direitos {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    background-color: #333;
+    margin: auto;
+    font-family: "Calibri Light";
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    -webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+
+}
+	
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1023px)  { 
+  .rodape-posicionamento{
+	width: 100%;
+	margin: 0 auto;
+}
+.caixa_tudo {
+	background-color: #fff;
+	width:100%;
+	margin: 0 auto;
+}
+
+.conteudo {
+	background-color: #FFF;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+
+	}	
+
+.caixa_rodape {
+	width: 100%;
+	height: 350px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	background-color:#CCC;
+
+	}
+.direitos {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    background-color: #333;
+    margin: auto;
+    font-family: "Calibri Light";
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    -webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+
+}
+}
+  
+
+
+/*Laptops and Desktops*/
+@media screen and  (min-width:1024px) and (max-width:1279px) { 
+	
+	
+}
+
+@media screen and  (min-width:1280px) and  (max-width:1439px){ 
+
+}
+
+@media screen and  (min-width:1440px) and  (max-width: 1599px){ 
+	
+}
+
+@media screen and  (min-width: 1600px) and  (max-width:1679px){ 
+
+}
+
+@media screen and  (min-width:1680px) and(max-width: 1919px){ 
+
+}
+@media screen and  (min-width: 1920px){ 
+}
+
+/*wearables (relogios)*/
+/* ----------- Apple Watch ----------- */
+@media screen and 
+  (max-width: 42mm)
+  and (min-device-width: 38mm)  
+  {
+  }
+/* ----------- Moto 360 Watch ----------- */
+@media 
+  (max-width: 218px)
+  and (max-device-height: 281px) 
+  {
+  }
+	

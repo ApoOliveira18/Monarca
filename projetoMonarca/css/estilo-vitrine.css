@@ -1,0 +1,498 @@
+@charset "utf-8";
+body
+{
+    margin:0;}
+
+.slogan-vitrine
+{
+    width:100%;
+    height:50px;
+    background-color:#fff;
+    font-family:Calibri;
+    font-size:30px;
+    
+    
+    }
+.conteudo-vitrine-fixa
+{
+    width:100%;
+    height:1000px;
+    background-color:#fff;
+    }
+    
+   
+        .sub-menu
+        {
+          text-align: justify;
+          font-size:24px;
+	      color : #666;
+	      font-family : "Calibri Light";
+        
+        }    
+    .texto-venda
+    {
+        margin-left:50px;
+        color:#333;
+        }
+        .texto-venda:hover
+    {
+        margin-left:50px;
+        color:#000;
+        }
+    
+    
+.selecao-linhas
+{
+    width:19%;
+    height:auto;
+    background-color:#fff;
+    float:left;
+    margin-left:1%;
+    }
+   .linha-selecao
+   {
+       height:98%;
+       margin-top:1%;
+       background-color:#999;
+       width:1px;
+       float:right;
+       }
+.perfumes-vitrine
+{
+	   width: 79%;
+	   height: 1000px;
+	   background-color: #fff;
+       float: left;
+    
+    }
+   .titulo-vitrine
+   {
+       margin-left:1%;
+       font-family:Meiryo UI;
+       }
+   .linha-slogan
+   {
+       height:1px;
+       width:98%;
+       background-color:#999;
+       margin:0 Auto;
+    }
+	  
+	.link-produto{
+		width:300px;
+		height:400px;
+		margin-left:20px;
+		margin-top:20px;
+		float:left;
+		background-color:transparent;
+	
+	}
+	.topo-vitrine{
+	width:98%;
+	height:auto;
+	margin-left:2%;
+	}
+	.linha-vitrine{
+    height: 1px;
+    width: 98%;
+    background-color: #999;
+    margin: 0 Auto;
+	visibility: hidden;
+}
+
+   
+   
+   
+   
+   
+   /* Media Queries */
+
+/*  https://css-tricks.com/snippets/css/media-queries-for-standard-devices/  */
+
+
+
+@media screen and (min-width:320px) and (max-width: 413px){
+.conteudo-vitrine-fixa
+{
+    width:100%;
+    height:2260px;
+    background-color:#fff;
+    }
+.selecao-linhas
+{
+    width:100%;
+    height:auto;
+    background-color:#fff;
+    }
+   .linha-selecao
+   {
+       overflow:hidden;
+       }
+.perfumes-vitrine
+{
+    width:100%;
+    height:2150px;
+    background-color:#fff;    
+    }
+   .titulo-vitrine
+   {
+       margin-left:1%;
+       font-family:Meiryo UI;
+       }
+   .linha-slogan
+   {
+       height:1px;
+       width:98%;
+       background-color:#999;
+       margin:0 Auto;
+       }
+	   	.link-produto{
+		width:300px;
+		height:400px;
+		margin-left:18.1%;
+		margin-top:20px;
+		float:left;
+		background-color:transparent;
+	
+	}
+	.linha-vitrine{
+	  height: 1px;
+    width: 98%;
+    background-color: #999;
+    margin: 0 Auto;
+	visibility:  visible;
+	}
+}
+@media screen and  (min-width: 414px) and (max-width: 479px) 
+{ 
+  .conteudo-vitrine-fixa
+{
+    width:100%;
+    height:2260px;
+    background-color:#fff;
+    }
+.selecao-linhas
+{
+    width:100%;
+    height:auto;
+    background-color:#fff;
+    }
+   .linha-selecao
+   {
+       overflow:hidden;
+       }
+.perfumes-vitrine
+{
+    width:100%;
+    height:2150px;
+    background-color:#fff;    
+    }
+   .titulo-vitrine
+   {
+       margin-left:1%;
+       font-family:Meiryo UI;
+       }
+   .linha-slogan
+   {
+       height:1px;
+       width:98%;
+       background-color:#999;
+       margin:0 Auto;
+       }
+	.link-produto{
+		width:300px;
+		height:400px;
+		margin-left:16.4%;
+		margin-top:20px;
+		float:left;
+		background-color: transparent;
+	
+	}
+	.linha-vitrine{
+	height: 1px;
+    width: 98%;
+    background-color: #999;
+    margin: 0 Auto;
+	visibility:  visible;
+	}
+
+}
+
+
+@media screen and  (min-width: 480px) and (max-width: 567px) {
+  
+.conteudo-vitrine-fixa
+{
+    width:100%;
+    height:2260px;
+    background-color:#fff;
+    }
+.selecao-linhas
+{
+    width:100%;
+    height:auto;
+    background-color:#fff;
+    }
+   .linha-selecao
+   {
+       overflow:hidden;
+       }
+.perfumes-vitrine
+{
+    width:100%;
+    height:2150px;
+    background-color:#fff;    
+    }
+   .titulo-vitrine
+   {
+       margin-left:1%;
+       font-family:Meiryo UI;
+       }
+   .linha-slogan
+   {
+       height:1px;
+       width:98%;
+       background-color:#999;
+       margin:0 Auto;
+       }
+
+	.link-produto{
+		width:300px;
+		height:400px;
+		margin-left:21.4%;
+		margin-top:20px;
+		float:left;
+		background-color:transparent;
+	}
+		.linha-vitrine{
+	height: 1px;
+    width: 98%;
+    background-color: #999;
+    margin: 0 Auto;
+	visibility:  visible;
+	}
+}
+
+
+@media screen and  (min-width: 568px) and (max-width: 639px)
+ {
+ 
+		.conteudo-vitrine-fixa
+{
+    width:100%;
+    height:3000px;
+    background-color:#fff;
+    }
+	
+	.selecao-linhas
+{
+    width:19%;
+    height:auto;
+    background-color:#fff;
+    float:left;
+    margin-left:1%;
+    }
+.perfumes-vitrine
+{
+	   width: 79%;
+	   height: 3000px;
+	   background-color: #fff;
+       float: left;
+    
+    }
+	
+	  .linha-selecao
+   {
+       height:98%;
+       margin-top:1%;
+       background-color:#999;
+       width:1px;
+       float:right;
+       }
+
+	
+}
+
+
+@media screen and (min-width: 640px) and (max-width: 735px) 
+{
+
+		.conteudo-vitrine-fixa
+{
+    width:100%;
+    height:3000px;
+    background-color:#fff;
+    }
+
+		.selecao-linhas
+{
+    width:19%;
+    height:auto;
+    background-color:#fff;
+    float:left;
+    margin-left:1%;
+    }
+.perfumes-vitrine
+{
+	   width: 79%;
+	   height: 3000px;
+	   background-color: #fff;
+       float: left;
+    
+    }
+	
+	  .linha-selecao
+   {
+       height:98%;
+       margin-top:1%;
+       background-color:#999;
+       width:1px;
+       float:right;
+       }
+
+}
+
+
+@media screen and  (min-width: 736px) and (max-width: 767px)  { 
+ 
+		.conteudo-vitrine-fixa
+{
+    width:100%;
+    height:2260px;
+    background-color:#fff;
+    }
+
+		.selecao-linhas
+{
+    width:19%;
+    height:auto;
+    background-color:#fff;
+    float:left;
+    margin-left:1%;
+    }
+.perfumes-vitrine
+{
+	   width: 79%;
+	   height: 3000px;
+	   background-color: #fff;
+       float: left;
+    
+    }
+	
+	  .linha-selecao
+   {
+       height:98%;
+       margin-top:1%;
+       background-color:#999;
+       width:1px;
+       float:right;
+       }
+
+
+}
+
+
+@media screen and  (min-width: 768px)  and (max-width: 799px)  {
+
+.conteudo-vitrine-fixa
+{
+    width:100%;
+    height:2260px;
+    background-color:#fff;
+    }
+	
+			.selecao-linhas
+{
+    width:19%;
+    height:auto;
+    background-color:#fff;
+    float:left;
+    margin-left:1%;
+    }
+.perfumes-vitrine
+{
+	   width: 79%;
+	   height: 3000px;
+	   background-color: #fff;
+       float: left;
+    
+    }
+	
+	  .linha-selecao
+   {
+       height:98%;
+       margin-top:1%;
+       background-color:#999;
+       width:1px;
+       float:right;
+       }
+
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1023px)  { 
+
+.conteudo-vitrine-fixa
+{
+    width:100%;
+    height:2260px;
+    background-color:#fff;
+    }
+
+		.selecao-linhas
+{
+    width:19%;
+    height:auto;
+    background-color:#fff;
+    float:left;
+    margin-left:1%;
+    }
+.perfumes-vitrine
+{
+	   width: 79%;
+	   height: 2500px;
+	   background-color: #fff;
+       float: left;
+    
+    }
+	
+	  .linha-selecao
+   {
+       height:98%;
+       margin-top:1%;
+       background-color:#999;
+       width:1px;
+       float:right;
+       }
+
+}
+  
+
+
+/*Laptops and Desktops*/
+@media screen and  (min-width:1024px) and (max-width:1279px) { 
+
+
+}
+
+@media screen and  (min-width:1280px) and  (max-width:1439px){ 
+
+}
+
+@media screen and  (min-width:1440px) and  (max-width: 1599px){ 
+
+
+}
+
+@media screen and  (min-width:1680px) and(max-width: 1919px){ 
+
+
+}
+
+
+@media screen and  (min-width: 1920px){ 
+
+
+}
+
+

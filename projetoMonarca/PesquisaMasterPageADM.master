@@ -1,0 +1,144 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PesquisaMasterPageADM.master.cs" Inherits="PesquisaMasterPageADM" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MONARCA - Setor Administrativo</title>
+<link href="css/adm_estilo.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+<link href="themes/3/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="themes/3/js-image-slider.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+     <script type="text/javascript" 
+    src="Scripts/jquery-1.4.1.js">
+    </script>  
+ 
+ <script type="text/javascript" 
+ src="Scripts/jquery.maskedinput-1.2.2.js">
+ </script>  
+    
+ 
+ 
+ <script type="text/javascript">
+     $(document).ready(function () {
+         $(function () {
+
+             $("#txtTel1").mask("(99) 9999-9999");
+             $("#txtCEP").mask("99.999-999");
+             $("#txtDataNasc").mask("99/99/9999");
+             $("#txtCPF").mask("999.999.999-99");
+             $("#txtRG").mask("99.999.999-9*");
+           //  $("#cnpj").mask("99.999.999/9999-99");
+
+   $('#txtTel2').focusout(function () {
+                 var phone, element;
+                 element = $(this);
+                 element.unmask();
+                 phone = element.val().replace(/\D/g, '');
+                 if (phone.length > 10) {
+                     element.mask("(99) 99999-999?9");
+                 } else {
+                     element.mask("(99) 9999-9999?9");
+                 }
+             }).trigger('focusout');
+         });
+     });
+     </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="caixa_tudo">
+ <div class="topo">
+ 	<div class="superior1">
+   	  <div class="logo"><a href="#"><img src="img/MN-menu.png" width="67" height="70" alt="home" /></a></div>
+
+    </div>
+    <div class="superior2">
+      <div class="menu"><a href="IndexADM.aspx">Setor Administrativo</a></div>
+    </div>
+ </div>
+ 
+ <div class="conteudo10">
+ <h2></h2>
+ <div class="corpo">
+ <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+        <div class="lista">
+ 
+        <p>
+        <a href="IndexADM.aspx">Início</a><br/>
+        <a href="#">Cadastro</a> 
+        <span class="links2"><br/>
+        <a href="CadastroPerfume.aspx">Perfumes</a><br/>
+        <a href="CadastroADM.aspx">Administradores</a><br/>
+        <a href="CadastroFuncionario.aspx">Funcionários</a><br/>
+        <a href="CadastroLinha.aspx">Linha</a><br/>
+        </span>
+        <a href="#">Pesquisa</a>
+        <span class="links3"><br/>
+        <a href="PesquisaVendas.aspx">Vendas</a><br/>
+        <a href="PesquisaPerfume.aspx">Perfumes</a><br/>
+        <a href="PesquisaCliente.aspx">Clientes</a><br/>
+        <a href="PesquisaADM.aspx">Administradores</a><br/>
+        <a href="PesquisaFuncionario.aspx">Funcionários</a><br/>
+        <a href="PesquisaLinha.aspx">Linha</a>
+                    
+        </span>
+  <br/>
+                <span class="links3">
+        <br />
+            
+        </span>
+        <span class="links4">
+        <asp:LinkButton ID="lbLogout" runat="server" onclick="LinkButton1_Click" >Sair (Logout)</asp:LinkButton>
+        </span>
+        </p>
+        </div>
+
+ </div>
+  
+  
+  
+  
+<div class="caixa_rodape">
+
+    <div class="galeria">
+    <a href="#">Cadastro</a> <span class="links"><br/>
+     <a href="CadastroPerfume.aspx">Perfumes</a><br/>
+     <a href="CadastroADM.aspx">Administradores</a><br/>
+     <a href="CadastroFuncionario.aspx">Funcionários</a><br/>
+     <a href="CadastroLinha.aspx">Linha</a>
+     </span></div>
+   
+   <div class="galeria">
+   <a href="#">Pesquisa</a> <span class="links"><br/>
+      <a href="PesquisaPerfume.aspx">Perfumes</a><br/>
+      <a href="PesquisaCliente.aspx">Clientes</a><br/>
+    <a href="PesquisaADM.aspx">Administradores</a><br/>
+    <a href="PesquisaFuncionario.aspx">Funcionários</a><br/>
+    <a href="PesquisaLinha.aspx">Linha</a>
+    </span>
+   
+   </div>
+  
+  <div class="sobre">
+  <a href="#">Sobre</a> <span class="links"><br/>
+     <a href="Ajuda.aspx">Ajuda</a></span>
+  </div>
+    
+  </div>
+  <div class="direitos">
+     <p>
+      Copyright © 2014 Monarca Perfumes do Brasil. Todos os direitos reservados. 
+      </p>
+      </div>
+</div>
+    </form>
+</body>
+</html>

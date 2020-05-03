@@ -1,0 +1,103 @@
+﻿
+ #topo
+ {
+ 	width:80%;
+ 	margin: 0 auto;  
+  	font-family: Calibri;	
+	font-weight: normal;
+	font-style: normal;
+	font-size:30px;
+	margin-top:40px;
+	color: #666;
+ }
+ 
+ #maximo-tamanho
+ {
+     max-width:1920px; 
+     margin:0 auto;
+     width:100%;
+      
+ }
+ 
+ #mapa-menu
+{
+    width:100%;
+    height:300px;
+    padding-top:10px;
+    margin-bottom:20px;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  
+  
+
+
+#topo-lateral 
+{
+    width: 20%;
+    height:200px;
+    float:left;
+    margin-top: 30px;
+    margin-left:10%;
+   color: #666;
+   font-family: Calibri;	
+	font-weight: normal;
+	font-style: normal;
+	text-decoration:none;
+	font-size:20px;  
+	text-align: justify;  
+}
+
+.cor-da-letra
+{
+    color: #999;
+   font-family: Calibri;	
+	font-weight: normal;
+	font-style: normal;
+	text-decoration:none;
+	font-size:18px;    
+}  
+
+.cor-da-letra:hover {
+  color: #000;
+}
+ 
+ #lateral1
+{
+    width: 100%;
+    float:left;
+   color: #666;
+   font-family: Calibri;	
+	font-weight: normal;
+	font-style: normal;
+	text-decoration:none;
+	font-size:18px; 
+	margin-top: 20px; 
+	padding-top: 8px;
+	font-size:18px;       
+}  
+
+.linha{
+	width:80%;
+	height:1px;
+	background-color:#999;
+	margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1024px){
+#topo-lateral {
+  width: 80%;
+  height: 200px;
+  float: none;
+  margin-top: 0px;
+  margin: 0 auto;
+  color: #666;
+  font-family: Calibri;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: justify;
+}
+}

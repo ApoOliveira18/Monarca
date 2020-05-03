@@ -1,0 +1,197 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr --> 
+    <title>Monarca</title>
+
+    <meta name="description" content="Monarca" />
+		<meta name="keywords" content="Monarca, perfumes,fragancia, parfurme" />
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="css/estilo2.css" />
+		<script src="js/modernizr2.custom.js"></script> 
+        <!--- slide novo --->
+        		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/styleSlide.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"> </script>
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
+		</noscript>
+        <!-- fim do slide nnovo-->
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    	<header>
+		<div class="cd-logo"><a href="index.aspx"><img src="img/MN-menu.png" alt="Logo" /></a></div>
+
+		<nav class="cd-main-nav-wrapper">
+			<ul class="cd-main-nav">
+            <li><a href="Compra.aspx"><div id="carrinho" runat="server"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAZCAYAAADe1WXtAAAD80lEQVRIS51WXUiTYRTuc845t/xZLX9JTcFVZsjMXRgN607MIQWBQT9GWTqiIDLoQo0y8yIobBcKIWVRDWr4E10oiNUyI1hqaP6lNXXamm66uT9nzxnuZu6r9IPD3u99z3nOc877vN87ZhPLs7KyIvZ4PBUMw8hhKW63W+dwONRCobAOIW7YClssE2jB6XTKuFxuC9bE/utY+9jY2FhYUlIyi7XlQPFrQMFQCNMRu9nZ2SdKpfK+Wq2eb2ho2FlUVHQrLCxst9ls1kRGRp4AoBXm8QdeA7q8vFwaFBT0wGKxtEdERCgRYIMtEqvq6uq48vLyD1jfXFVVlVVZWTmIefs/QdG7Jg6Hc7yrq0spl8tbEWBaZUQ95Nhsthd8Pr+ws7PzbG5urhpzC/5svUxRrgj2BiXvY2s+2zyS1AkEgitYd/nAvaAo+SpKurNeQJ9/c3PzQYVC8QHvDuLoBUXJD1HyaTZQo9H4zmq16qOjo3Mw/my3200pKSmnUFkQxWi12os5OTmPMbQQWx9oO0APBQI1mUza0dHR9oGBAV12dvbesbGxb0lJScmwo1BCJsX09fXVZGRk3MVwjjj6yu9H+btZQN+OjIy0lpaWPtNoNIXBwcGiqampL5mZmc/AlEsx4+Pjj5KTk8tXN9XpBcXJMcMhnK386enpJiSdGB4efpWenn4YJ8sJrc6npqbWkLxmZmZex8TEnEO8kfrKYNf5GNgAvABgga9P/glIt9hpbUdHx3Ow2pqWlpaH08WLjY29hAQ9OAxHEfMLZmeQVRISEjIABz0A+TieWwIxBtuX8PkOgO64uLjtIMPD+6b4+PhqYPwIDQ2VI46Oro1xuVyH0Cdi8RWODDS3KxAoFGIcHBysE4lEtGxE2XyMj4FQFqp0YKNpTwwwK4NsJ8GuEeVpoVd3VFTUAbbegtH3iYmJeiRmxGKxAoAyn29BQYG0paVlCO+LVP51LN6EdF4jwRIafoQN9G/zKpWqoKysrAs+FmKqAtMLkMkTtGIuMTGRPiLrftra2s7k5+e/QqCZQa806IcColYhwS+JRFKxbkQE9PT0XJfJZPUYzhHoJ4Bm9ff330YrfkqlUtVGQIeGhh5AZje8oNg5A6QU3d3dfQ0a7CguLi7k8XhSbMZe/Mb8b4LJycnnCQkJl+H/m8RPH2G+Xq9/CqZfcJ5dkBd3aWmJC1AxZJMeHh6+B33f9rcEBoOhFQfhPMmNdPoWOt3/v4zY/HQ6XS2+B/e9oL29vRLseC2Ad5D48ay5JWmewHy//sBQzvu8vLx7+JrNYG2enDkwAUwIC4EFvGH/UQldfnRX0dVi9wEQcPBqgo10gqqj65r+D3j+APIH5U8EJcZNAAAAAElFTkSuQmCC" /></div></a></li>
+				<%--<li><asp:LinkButton ID="lbLogout" runat="server" onclick="lbLogout_Click">Sair</asp:LinkButton></li>--%>
+                <li><a href="Store.aspx">Store</a></li>
+				<li><a href="PerfilCliente_Entrar.aspx">Login</a></li>
+				<li><a href="Contato.aspx">Sobre Nós</a></li>
+                <li>
+                <asp:TextBox ID="txtbusca" CssClass="lupa" runat="server" OnTextChanged="txtbusca_TextChanged1" ></asp:TextBox>
+                </li>
+                
+               	<li>
+					<a href="#0" class="cd-subnav-trigger"><span>Perfumes</span></a>
+
+					<ul>
+						<li class="go-back"><a href="#0">Menu</a></li>
+						<li><a href="Encore.aspx">Encore</a></li>
+						<li><a href="Aromas.aspx">Aromas do Brasil</a></li>
+						<li><a href="Casual.aspx">Casual</a></li>
+						<li><a href="Sports.aspx">Sports</a></li>
+						<li><a href="cyber.aspx">Cyber</a></li>
+						<li><a href="#0" class="placeholder">Placeholder</a></li>
+					</ul>
+				</li>
+			</ul> <!-- .cd-main-nav -->
+		</nav> <!-- .cd-main-nav-wrapper -->
+		
+		<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+            <asp:SqlDataSource ID="sqlCarrinho" runat="server" 
+            ConnectionString="<%$ ConnectionStrings:monarcaConnectionString %>" 
+            ProviderName="<%$ ConnectionStrings:monarcaConnectionString.ProviderName %>" 
+            SelectCommand="SELECT itens.id_itens, itens.id_venda, itens.id_prod, itens.qtd_item, itens.total_prod, venda.id_cli, itens.status FROM itens INNER JOIN venda ON itens.id_venda = venda.id_venda WHERE (venda.id_cli = @cliente) AND (itens.status = '0')">
+                <SelectParameters>
+                    <asp:SessionParameter Name="cliente" SessionField="idCliente" />
+                </SelectParameters>
+            </asp:SqlDataSource>
+	</header>
+	
+	<main class="cd-main-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+    </main>
+
+<!--    rodape-->
+
+			<div id="rodape-monarca">
+			
+			<div id="link-rodape">
+			<center> &nbsp;&nbsp; <a href="Store.aspx"> Store </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="fale-conosco.aspx"> Contato </a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="MapaSite.aspx"> Mapa do Site </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="politica_de_privacidade.aspx"> Atendimento Monarca </a>
+            &nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="lbLogout" runat="server" onclick="lbLogout_Click">Sair</asp:LinkButton>
+            </center>
+			</div>
+			
+			<div id="linha-rodape"></div>
+			
+			<div id="redes-sociais">
+			<center>
+			Siga o Monarca
+			<br/>
+			<br/>
+			<a href="http://instagram.com/mnperfumes?ref=badge" target="_blank" ><img src="images/instagram.png"></a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="https://www.facebook.com/mnperfumes" target="_blank" ><img src="images/face.png"></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="https://twitter.com/mnperfumes" target="_blank" ><img src="images/twitter.png"></a>
+			</center>
+			</div>
+			
+			<div id="direitos-roda">
+			<center>Copyright © 2015 Monarca Perfumes. Todos os direitos reservados.</center>
+			</div>
+			
+			</div>
+            
+<!--   fim rodape-->
+
+    </form>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+<!-- slide novo-->
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
+		<script type="text/javascript" src="js/jquery.slitslider.js"></script>
+		<script type="text/javascript">
+		    $(function () {
+
+		        var Page = (function () {
+
+		            var $nav = $('#nav-dots > span'),
+						slitslider = $('#slider').slitslider({
+						    onBeforeChange: function (slide, pos) {
+
+						        $nav.removeClass('nav-dot-current');
+						        $nav.eq(pos).addClass('nav-dot-current');
+
+						    }
+						}),
+
+						init = function () {
+
+						    initEvents();
+
+						},
+						initEvents = function () {
+
+						    $nav.each(function (i) {
+
+						        $(this).on('click', function (event) {
+
+						            var $dot = $(this);
+
+						            if (!slitslider.isActive()) {
+
+						                $nav.removeClass('nav-dot-current');
+						                $dot.addClass('nav-dot-current');
+
+						            }
+
+						            slitslider.jump(i + 1);
+						            return false;
+
+						        });
+
+						    });
+
+						};
+
+		            return { init: init };
+
+		        })();
+
+		        Page.init();
+
+		        /**
+		        * Notes: 
+		        * 
+		        * example how to add items:
+		        */
+
+		        /*
+				
+		        var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
+				
+		        // call the plugin's add method
+		        ss.add($items);
+
+		        */
+
+		    });
+		</script>
+
+<!-- fim slide novo-->
+
+
+
+</body>
+</html>

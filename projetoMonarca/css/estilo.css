@@ -1,0 +1,915 @@
+@charset "utf-8";
+.caixa1 
+{
+    background-image:url(../img/prop1.jpg);
+	height: 350px;
+	width: 960px;
+	margin:0 auto;
+	margin-top:50px;
+	
+}
+
+
+.caixa2 
+{
+    background-image:url(../img/quad1.jpg);
+	height: 300px;
+	width: 300px;
+	margin-top: -100px;
+	margin-left:  120px;
+	float: left;
+}
+
+.caixa2:hover 
+{
+    background-image:url(../img/quad-hover1.png);
+	height: 300px;
+	width: 300px;
+	margin-top: -100px;
+	margin-left: 120px;
+	float: left;
+	transition:all 0.1s linear;
+	-webkit-transition:all 0.1s linear;
+	-moz-transition:all 0.1s linear;
+	-ms-transition:all 0.1s linear;
+	-o-transition:all 0.1s linear;
+}
+
+.caixa3 
+{
+    background-image:url(../img/quad2.jpg);
+	
+	height: 300px;
+	width: 300px;
+	margin-top: -100px;
+	margin-left:  120px;
+	float: left;
+}
+.login {
+	font-family: "Calibri Light";
+	font-size: 18px;
+	color: #FFF;
+	float: right;
+	height: 80px;
+	width: 270px;
+	margin-top:5px;
+	font-weight: bold;	
+	padding-top:5px;
+}
+.login a{
+	font-family: "Meiryo";
+	font-size: 10px;
+	color: #FFF;
+	float: left;
+}
+.login a:hover{
+	font-family: "Meiryo";
+	font-size: 10px;
+	color:#999;
+	float: left;
+	text-decoration:underline;
+}
+.botao-login 
+{
+    float: right;
+    width: 80px;
+    height: 50px;
+    padding-top: -50px;
+}
+
+/*bem vindo */
+.Resposta 
+{   
+    position:absolute;
+    float: right;
+    max-width: 190px;
+    font-family: "Meiryo";
+} 
+
+
+.caixas 
+{
+    float: left;
+    width: 151px;
+    height: 113px;
+    }
+.superior2{
+	background-color:#000;
+	margin:0 auto;
+	width:60%;
+	max-width:1000px;
+	min-width:1000px;
+	height:45px;
+}
+.formulario-cadastro 
+{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    font-family : "Calibri Light";
+	font-size: 18px;
+
+}
+.linha-cad
+{
+    width:100%;
+    height:1px;
+    color:#666;
+    
+}
+
+.caixa3:hover 
+{
+    background-image:url(../img/quad-hover2.png);
+	height: 300px;
+	width: 300px;
+	margin-top: -100px;
+	margin-left:  120px;
+	float: left;
+	transition:all 0.1s linear;
+	-webkit-transition:all 0.1s linear;
+	-moz-transition:all 0.1s linear;
+	-ms-transition:all 0.1s linear;
+	-o-transition:all 0.1s linear;
+}
+
+.caixa4
+{
+    background-image:url(../img/fundo-8.jpg);
+	height: 350px;
+	width: 960px;
+	margin:0 auto;
+	margin-top:50px;
+	
+}
+
+
+.caixa5 
+{
+    background-image:url(../img/sport-masc.png);
+	height: 300px;
+	width: 300px;
+	margin-top: -100px;
+	margin-left:  120px;
+	float: left;
+}
+
+.caixa5:hover 
+{
+    background-image:url(../img/sport-masc---hover.png);
+	height: 300px;
+	width: 300px;
+	margin-top: -100px;
+	margin-left: 120px;
+	float: left;
+	transition:all 0.1s linear;
+	-webkit-transition:all 0.1s linear;
+	-moz-transition:all 0.1s linear;
+	-ms-transition:all 0.1s linear;
+	-o-transition:all 0.1s linear;
+}
+
+.caixa6 
+{
+    background-image:url(../img/sport-fm2.png);	
+	height: 300px;
+	width: 300px;
+	margin-top: -100px;
+	margin-left:  120px;
+	float: left;
+}
+
+.caixa6:hover 
+{
+    background-image:url(../img/sport-fm2-hover.png);
+	height: 300px;
+	width: 300px;
+	margin-top: -100px;
+	margin-left:  120px;
+	float: left;
+	transition:all 0.1s linear;
+	-webkit-transition:all 0.1s linear;
+	-moz-transition:all 0.1s linear;
+	-ms-transition:all 0.1s linear;
+	-o-transition:all 0.1s linear;
+}
+
+.caixa7
+{
+    background-image:url(../img/fundo-rio.jpg);
+	height: 350px;
+	width: 960px;
+	margin:0 auto;
+	margin-top:50px;
+	
+}
+
+
+.caixa8 
+{
+    background-image:url(../img/br-fmm.png);
+	height: 300px;
+	width: 300px;
+	margin-top: -100px;
+	margin-left:  120px;
+	float: left;
+}
+
+.caixa8:hover 
+{
+    background-image:url(../img/br-fmm-hover.png);
+	height: 300px;
+	width: 300px;
+	margin-top: -100px;
+	margin-left: 120px;
+	float: left;
+	transition:all 0.1s linear;
+	-webkit-transition:all 0.1s linear;
+	-moz-transition:all 0.1s linear;
+	-ms-transition:all 0.1s linear;
+	-o-transition:all 0.1s linear;
+}
+
+.caixa9 
+{
+    background-image:url(../img/br-masc.png	);
+	height: 300px;
+	width: 300px;
+	margin-top: -100px;
+	margin-left:  120px;
+	float: left;
+}
+
+.caixa9:hover 
+{
+    background-image:url(../img/br-masc-hover.png);
+	height: 300px;
+	width: 300px;
+	margin-top: -100px;
+	margin-left:  120px;
+	float: left;
+	transition:all 0.1s linear;
+	-webkit-transition:all 0.1s linear;
+	-moz-transition:all 0.1s linear;
+	-ms-transition:all 0.1s linear;
+	-o-transition:all 0.1s linear;
+}
+
+
+.add1 {
+	float: left;
+	height: 500px;
+	width: 485px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+	.add2 {
+	float: left;
+	height: 500px;
+	width: 485px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.foto2 {margin-top:250px;
+}
+
+	.meio{
+		background-color: #FFF;
+		width:80%;
+		height:3000px;
+		margin:0 auto;
+		-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+		box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+		max-width:1000px;
+		min-width:1000px;
+		}	
+	.linhas {
+		height: 640px;
+		width: 960px;
+		margin-top: 10px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	.lateral {
+		width:250px;
+		height:780px;
+		margin:0;
+		padding-top:40px;
+
+	}
+	
+	.menu_lateal{
+		width:190px;
+		height:200px;
+		font:"Calibri Light";
+		color:#666;
+		margin-left:20px;
+		margin-right:5px;
+		margin-top:5px;
+		-webkit-border-radius: 40px;
+		-moz-border-radius: 40px;
+		border-radius: 40px;
+		padding-top:40px;
+
+
+			}
+			
+			
+			
+.suckerdiv ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+font:"Calibri Light";
+color:#666;
+width: 190px; /* Largura Menu Items */
+margin:0 auto;
+
+}
+.suckerdiv ul li{
+position: relative;
+
+}
+/*Sub menu items */
+.suckerdiv ul li ul{
+position: absolute;
+width: 170px; /*largura sub menu*/
+top: 0;
+visibility: hidden;
+font:"Calibri Light";
+		color:#666;
+}
+/* estilos dos links */
+.suckerdiv ul li a{
+display: block;
+overflow: auto;
+color: black;
+text-decoration: none;
+background: #fff; /*edite cor */
+padding: 1px 5px;
+border-bottom: 1px solid #ccc; /*edite borda */
+font:"Calibri Light";
+		color:#666;
+}
+.suckerdiv ul li a:visited{
+font:"Calibri Light";
+		color:#666;
+}
+.suckerdiv ul li a:hover{
+background-color: #FFF; /*edite cor */
+}
+.suckerdiv .subfolderstyle{
+background: url(../img/seta.png) no-repeat center right;
+
+}
+
+/* Holly Hack for IE */
+* html .suckerdiv ul li { float: left; height: 1%; }
+* html .suckerdiv ul li a { height: 1%; }
+/* End */
+
+		.barra1{
+		width: 960px;
+		height:30px;
+		font:"Calibri Light";
+		color: #666;
+		margin: 0 auto;
+	}
+		
+	.barra1 a{
+		font:"Calibri Light";
+		color:#333;
+		text-decoration:none;
+	}
+		.barra1 a:hover{
+		font:"Calibri Light";
+		color:#000;
+		text-decoration: underline;
+	}
+		
+	
+	
+	.barra{
+		width:730px;
+		height:30px;
+		float:right;
+		font:"Calibri Light";
+		color: #666;
+		margin-right:20px;
+	}
+		
+	.barra a{
+		font:"Calibri Light";
+		color:#333;
+		text-decoration:none;
+	}
+		.barra a:hover{
+		font:"Calibri Light";
+		color:#000;
+		text-decoration: underline;
+	}
+		
+	.slide {
+		width:960px;
+		height:450px;
+		margin:0 auto;
+		background-color:#FFF;
+		padding-top:20px;
+		padding-bottom:10px;
+	}
+	.vitrine{
+		width:730px;
+		height:650px;
+		background-color:#FFF;
+		margin-top:10px;
+		font:"Calibri Light";
+		color:#fff;
+		float:right;
+		margin-right:20px;
+		
+	
+	}
+	.produto {
+		width:225px;
+		height:300px;
+		margin-left:13.75px;
+		float:left;
+		background-color:#fff;
+		font:"Calibri Light";
+		color:#666;
+		margin-top:10px;
+	}
+
+	
+		.content{
+		background-color: #FFF;
+		width:80%;
+		height:1300px;
+		margin:0 auto;
+		-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+		box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+		max-width:1000px;
+		min-width:1000px;
+		}
+		
+		.fonte-tit {
+			font-family: TimesNewRoman,"Times New Roman",Times,Georgia,serif;
+			font-size: 30px;
+			text-transform: uppercase;
+			color: #252527;
+			margin-top:20px;
+		}
+		.fonte-p {
+	font-size: 18px;
+	color: #999;
+	float: left;
+	height: 180px;
+	width: 550px;
+	margin-left: 100px;
+	font-family: "Calibri Light";
+}
+
+	.barra-lateral{
+		width:1px;
+		height:180px;
+		float:left;
+		background-color: #ccc;
+		margin-left:20px;
+	}
+	.botao{
+		float:left;
+		margin-left:10px;
+		height:15px;
+		}
+
+.compre {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:37px;
+	line-height:37px;
+	width:132px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.compre:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.compre:active {
+	position:relative;
+	top:1px;
+}
+
+.conteudo_casual
+{
+	background-color: #FFF;
+	width:80%;
+	height:1000px;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	max-width:1000px;
+	min-width:1000px;
+}
+.linha{
+	width:90%;
+	height:1px;
+	background-color: #ccc;
+	margin:0 auto;
+	}
+	
+	.img {
+		width:400px;
+		height:500px;
+		float:left;
+		margin-left:50px;
+		margin-top:20px;
+		margin-right:14.5px;
+		background-color:#FFF;
+	}
+	.linha-img {
+		width:1px;
+		height:500px;
+		float:left;
+		background-color: #ccc;
+		margin-top:20px;
+	}
+	.preco {
+		width:470px;
+		height:500px;
+		float:right;
+		margin-left:14.5px;
+		margin-right:50px;
+		margin-top:20px;
+		background-color:#FFF;
+		}
+	.divisao{
+	width:900px;
+	height:1px;
+	background-color:#CCC;
+	margin-top: 540px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	}
+	.desc {
+		width:900px;
+		height:500px;
+		background-color:#FFF;
+		margin-top:20px;
+		margin-right: auto;
+		margin-bottom: 0;
+		margin-left: auto;
+	}
+	.conteudo-produto
+	{
+	    background-color: #FFF;
+	width:80%;
+	height:1200px;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	max-width:1000px;
+	min-width:1000px;
+	}
+	
+	/*FONTES!!! PRODUTOS */
+	
+	.nome-perf 
+	{
+	    width:300px;
+	    height:150px;
+	    background-color:#FFF;
+	    margin-top:150px;
+	    margin-left:50px;
+	}
+
+	
+		.fonte-nome {
+		font-family: TimesNewRoman,"Times New Roman",Times,Georgia,serif;
+		font-size: 30px;
+		text-transform: uppercase;
+		color: #252527;	
+		}
+		
+	    .fonte-subnome {
+	    font-family: Calibri ,TimesNewRoman,"Times New Roman",Times,Georgia,serif;
+		font-size: 21px;
+		text-transform: uppercase;
+		color: #252527;
+		margin-top : 5px;	
+		margin-bottom : 3px;
+		
+		}
+		   
+	
+		.fonte-desc {
+	font-size: 18px;
+	color: #999;
+	font-family: Calibri ;
+	float: left;
+	width: 80%;
+	height: auto;
+	}
+	.preco-perf 
+	{
+	    font-family: TimesNewRoman,"Times New Roman",Times,Georgia,serif;
+		font-size: 30px;
+		text-transform: uppercase;
+		color: #252527;	
+		float:right;
+	}
+		.centro-botao
+	{
+	    
+	    float:left;
+		height:15px;
+		margin-top:10px;
+		margin-left:50px;
+		
+	}
+	.barra-perf 
+	{
+	    height:1px;
+	    width:300px;
+	    margin-left:50px;
+	    background-color:#CCC;
+	}    
+		
+	.conteudo-galeria {
+background-color: #FFF;
+	width:80%;
+	height:2420px;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	max-width:1000px;
+	min-width:1000px;
+	}	
+	.direitos-g {
+	width:60%;
+	height:80px;
+	padding-top:15px;
+	background-color:#333;
+	margin:auto;
+	max-width:1000px;
+	min-width:1000px;
+	font-family: "Calibri Light";
+	font-size: 16px;
+	color: #FFF;
+	text-align: center;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);	
+	padding-left:260px;
+	}
+	.linha-perf
+	{
+	width:98%;
+	height:1px;
+	background-color: #ccc;
+	margin:0 auto;
+	}
+	.espace
+	{
+	    margin-left:10px;
+	    float:left;
+	    }
+	 .conteudo-linhas-monarca
+	 {
+	background-color: #FFF;
+	width:80%;
+	height:600px;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	max-width:1000px;
+	min-width:1000px;
+	     }
+.texto-sobre
+{
+    width:480px;
+    height:450px;
+    float:left;
+    margin-left:30px;
+    margin-right:10px;
+    font-size:18px;
+	color: #999;
+	font-family: "Calibri Light";
+	text-align: justify;
+ 
+    
+}
+
+.linha-sobre{
+	width:940px;
+	height:1px;
+	background-color: #ccc;
+	margin:0 auto;
+	}
+	
+    .email
+    {
+    width:940px;
+	height:550px;
+	margin:0 auto;
+	font-family: "Calibri Light";
+	font-size:18px;
+	color: #999;
+        }
+        
+    .caixa_compre 
+    {
+        width:600px;
+        height:400px;
+        margin-top:25px;
+        margin:0 auto;
+        margin-bottom:20px;
+        
+        }
+    .caixa-casual
+    { 
+      width:265px;
+      height:400px;
+      float:left;
+
+        }
+        
+    .caixa-texto-casual
+    { width:315px;
+      height:400px;
+      float:  right;
+      text-align:center;
+          font-size:18px;
+	color: #999;
+	font-family: "Calibri Light";
+        }
+        .caixa-texto-casual:hover
+    { 
+        width:315px;
+      height:400px;
+      float:  right;
+      text-align:center;
+          font-size:18px;
+	color: #666;
+	font-family: "Calibri Light";
+	
+	
+        }
+        
+    .caixa-sport
+    { width:265px;
+      height:400px;
+      float: right;
+
+        }
+        
+    .caixa-texto-sport
+    { width:315px;
+      height:400px;
+      float: left;
+      text-align:center;  
+          font-size:18px;
+	color: #999;
+	font-family: "Calibri Light";
+        }
+        
+    .caixa-texto-sport:hover
+    { width:315px;
+      height:400px;
+      float: left;
+      text-align:center;  
+          font-size:18px;
+	color: #666;
+	font-family: "Calibri Light";
+        }
+        
+ 
+    .caixa-aromas
+    { width:265px;
+      height:400px;
+      float:left;
+        }
+        
+    .caixa-texto-aromas
+    { width:315px;
+      height:400px;
+      float: right;
+      text-align:center;
+          font-size:18px;
+	color: #999;
+	font-family: "Calibri Light";
+        }
+        .caixa-texto-aromas:hover
+    {
+         width:315px;
+      height:400px;
+      float: right;
+      text-align:center;
+      font-size:18px;
+	  color : #666;
+	  font-family : "Calibri Light";
+        }
+
+
+    .sub-menu
+    {
+      text-align: justify;
+      font-size:24px;
+	  color : #666;
+	  font-family : "Calibri Light";
+        
+        }
+     .linha-sub
+     {
+         width:100%;
+         height:1px;
+         background-color:#ccc;
+         }
+
+
+
+
+    .cadastre
+    { text-align: justify;
+    cursor:  pointer; 
+	  color : #fff;
+	  font-family : "Calibri Light";
+        }
+        
+         .cadastre:hover
+    { text-align: justify;
+     cursor:  pointer; 
+	  color : #666;
+	  font-family : "Calibri Light";
+	  text-decoration:underline;
+        }
+        .fonte-pesq
+        {
+            font-size: 18px;
+	color: #999;
+	font-family: Calibri ;
+	float: left;
+	width: 80%;
+	height: auto;
+	margin-left:50px;
+	}
+	        .fonte-pesq a
+        {
+            font-size: 18px;
+	color: #666;
+	font-family: Calibri ;
+		}
+	.fonte-pesq a:hover
+        {
+            font-size: 18px;
+	color: #000;
+	font-family: Calibri ;
+	}
+	.conteudo_comprar
+{
+	background-color: #FFF;
+	width:80%;
+	height:550px;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+	max-width:1000px;
+	min-width:1000px;
+}
