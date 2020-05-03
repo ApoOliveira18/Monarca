@@ -23,13 +23,14 @@
 
 ## 💻 Projeto
 <p>
-    O MyTeach é uma plataforma que disponibiliza cursos onlines na troca de
-moedas digitais – πJM’s – onde o consumidor consegue ter retorno de algumas
-moedas - πJModel Return- para poder investir em outros cursos de nosso site. Ele
-foi pensado em atender a necessidade de atualização das informações para o
-mercado de trabalho ou nos estudos. Seu desenvolvimento contribui no aprendizado
-e na vida econômica de nossos usuários pois comprando ele ganha mais que o
-curso, ganha também moedas, isso tudo sem sair de casa para estudar.<p>
+    Nesse trabalho, o objetivo é promover a empresa, criada pelos membros do
+grupo,chamada ‘Monarca’ (empresa voltada exclusivamente à venda de
+perfumes).Utilizando de todos os recursos estudados, como Illustrator, Fireworks,
+Photoshop, Visual Studio, Dreamweaver, DB Designer, Eclipse, Blender e MySQL,
+foi confeccionado o e-commerce deste projeto, com o intuito de divulgar a marca e
+os produtos criados, de forma cativante e envolvente, com o objetivo de atrair os
+interessados em perfumes refinados e criados especialmente para a atenção de
+cada cliente.<p>
 
 <p align="center">
   <a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
