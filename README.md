@@ -6,21 +6,19 @@
 
 ## 🔖 Algumas Interfaces 
 <p align="center" vetical-aling="top">
- <img  src="assets/imgInt1.png" alt="Homepage" title="Homepage" width="600" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <img  src="assets/imgInt1.png" alt="Homepage" title="Homepage" width="800" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center" vetical-aling="top">
- <img  src="assets/imgInt.png" alt="Moeda PJM" title="Moeda PJM" width="600" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <img  src="assets/imgInt.png" alt="Moeda PJM" title="Moeda PJM" width="800" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center" vetical-aling="top"> 
- <img  src="assets/imgInt3.png" alt="Adicionar Cursos" title="Adicionar Cursos" width="400"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img  src="assets/imgInt4.png" alt="Cursos" title="Cursos" width="400" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+ <img  src="assets/imgInt3.png" alt="Adicionar Cursos" title="Adicionar Cursos" width="800"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
 </p>
 
-<p align="center" vetical-aling="top"> 
-  <img  src="assets/imgInt5.png" alt="Interface PJM" title="Interface PJM" width="400" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img  src="assets/imgInt6.png" alt="Meus Pagamentos" title="Meus Pagamentos" width="400" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p align="center" vetical-aling="top">   
+  <img  src="assets/imgInt6.png" alt="Meus Pagamentos" title="Meus Pagamentos" width="800" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 ## 💻 Projeto
