@@ -6,8 +6,11 @@
 
 ## 🔖 Algumas Interfaces 
 <p align="center" vetical-aling="top">
- <img  src="assets/imgInt.png" alt="Homepage" title="Homepage" width="400" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- <img  src="assets/imgInt1.png" alt="Moeda PJM" title="Moeda PJM" width="400" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <img  src="assets/imgInt1.png" alt="Homepage" title="Homepage" width="600" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<p align="center" vetical-aling="top">
+ <img  src="assets/imgInt2.png" alt="Moeda PJM" title="Moeda PJM" width="600" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center" vetical-aling="top"> 
