@@ -52,7 +52,7 @@ Este projeto foi desenvolvido com  as seguintes tecnologias:
 
 Os seguintes softwares foram utilizados neste projeto:
 
-- [Visual Studio 2017](https://visualstudio.microsoft.com/pt-br/) 
+- [Visual Studio 2013](https://visualstudio.microsoft.com/pt-br/) 
 - [Android Studio](https://developer.android.com/studio)
 - [Adobe](https://www.adobe.com/pt/creativecloud.html)
 - [Figma](https://www.figma.com/)
