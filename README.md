@@ -1,4 +1,4 @@
-<h1 align="center"><img src="projetoMonarca/images/logo-app.png" alt="Homepage" width="300"</h1>
+<h1 align="center"><img src="projetoMonarca/images/logo-app.png" alt="Homepage" width="200"</h1>
 
 <h4 align="center"> 
 	:heavy_check_mark: Loja Virtual Monarca :heavy_check_mark:
