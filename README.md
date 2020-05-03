@@ -1,4 +1,4 @@
-<h1 align="center"><img src="projetoMonarca/images/logo-app.png" alt="Homepage" width="150</h1>
+<h1 align="center"><img src="projetoMonarca/images/logo-app.png" alt="Homepage" width="180</h1>
 
 <h4 align="center"> 
 	:heavy_check_mark:  Site de E-commerce Monarca :heavy_check_mark:
