@@ -10,7 +10,7 @@
 </p>
 
 <p align="center" vetical-aling="top">
- <img  src="assets/imgInt2.png" alt="Moeda PJM" title="Moeda PJM" width="600" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <img  src="assets/imgInt.png" alt="Moeda PJM" title="Moeda PJM" width="600" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center" vetical-aling="top"> 
