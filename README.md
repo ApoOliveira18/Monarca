@@ -1,7 +1,7 @@
-<h1 align="center"><img src="MyTeach_SITE/img/logo_site_preta (1).ico " alt="Homepage" width="300"/></h1>
+<h1 align="center"><img src="projetoMonarca/images/logo-app.png" alt="Homepage" width="300"/></h1>
 
 <h4 align="center"> 
-	:heavy_check_mark:  Plataforma de ensino online MyTeach :heavy_check_mark:
+	:heavy_check_mark:  Site de E-commerce Monarca :heavy_check_mark:
 </h4>
 
 ## 🔖 Algumas Interfaces 
