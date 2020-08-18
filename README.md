@@ -14,11 +14,7 @@
 </p>
 
 <p align="center" vetical-aling="top"> 
- <img  src="assets/imgInt6.png" alt="Adicionar Cursos" title="Adicionar Cursos" width="800"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
-</p>
-
-<p align="center" vetical-aling="top">   
-  <img  src="assets/imgInt3.png" alt="Meus Pagamentos" title="Meus Pagamentos" width="800" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <img  src="assets/imgInt3.png" alt="Adicionar Cursos" title="Adicionar Cursos" width="800"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
 </p>
 
 ## 💻 Projeto
